@@ -1,10 +1,10 @@
 import React from 'react'
-import { Editor } from './components/Editor'
-import { createRoot } from 'react-dom/client'
+import {createRoot} from 'react-dom/client'
+import {Editor} from "./components/Editor";
 
 const root = createRoot(document.getElementById('root'))
 root.render(
-  <React.StrictMode>
-    <Editor />
-  </React.StrictMode>
+    <React.StrictMode>
+        <Editor/>
+    </React.StrictMode>
 )
