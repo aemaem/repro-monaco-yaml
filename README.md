@@ -1,7 +1,7 @@
-# Minimal reproduction of `monaco-yaml` not working with vite.
+# Minimal reproduction of `monaco-yaml` not working with vite, react and loader.
 
-This is copy of https://github.com/remcohaszing/monaco-yaml/tree/main/examples/vite-example \
+It has been forked from https://github.com/valerii15298/repro-monaco-yaml.
 
-But using actual `"monaco-yaml": "^5.4.0"` package from npm instead of linking via `"monaco-yaml": "file:../.."`
+To run install dependencies and run `npm start`
 
-To reproduce install dependencies and run `pnpm start`
+Relates to issues https://github.com/remcohaszing/monaco-yaml/issues/275, https://github.com/remcohaszing/monaco-yaml/issues/274 and https://github.com/remcohaszing/monaco-yaml/issues/115
